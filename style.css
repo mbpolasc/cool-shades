@@ -16,13 +16,13 @@ body {
   border-color: #d51419;
 }
 
-
-.background-image {
-  padding-top: 25px;
-
-  background-image: url(hero.jpg);
-  background-size: cover;
-  height: 100%;
+.hero-image {
+  background-image: url("hero.jpg"); /* The image used */
+  background-color: lightgrey; /* Used if the image is unavailable */
+  height: 100%; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
 }
 
 header .container {

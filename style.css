@@ -20,7 +20,7 @@ body {
 .background-image {
   padding-top: 25px;
 
-  background-image: url("/images/hero.jpg");
+  background-image: url("../images/hero.jpg");
   background-size: cover;
   height: 100%;
 }

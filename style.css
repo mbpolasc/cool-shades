@@ -38,14 +38,14 @@ div.col, #hands-free, #bone-conduction-audio {
 /********************/
 .background-image {
 	background-attachment: fixed;
-	background-image: url("../../images/hero.jpg");
+	background-image: url("/../images/hero.jpg");
 	background-position: top;
 	background-size: cover;
 	height: 100vh;
 }
 
 .features-background-image {
-	background: url("../../images/features-background.jpg");
+	background: url("/../images/features-background.jpg");
 	background-position: bottom;
 	background-size: cover;
 	/* height: 100vh; */

@@ -1,21 +1,41 @@
-html,
-body {
-  background-color: lightgrey;
-  margin: 0;
-  padding: 0;
-  height: 100%;
+* {
+	box-sizing: border-box;
+	/* The box-sizing propery is used to tell the browser what the sizing properties (width and height) should include; border-box includes content, padding, and border, but not the margin */
+	margin: 0;
+	padding: 0;
 }
 
-.btn-primary {
-  background-color: #d51419;
-  border-color: #dc3545;
+h2 {
+	font-style: italic;
+	font-size: 3em;
+	font-weight: bold;
 }
 
-.btn-primary:hover {
-  background-color: #dc3545;
-  border-color: #d51419;
+p {
+	color: #fff;
+	font-size: 1.5em;
+	font-weight: 300;
+	line-height: normal;
 }
 
+div.col-md-6 > p {
+	color: #000;
+}
+
+div.col, #hands-free, #bone-conduction-audio {
+	margin-bottom: 8em;
+	margin-top: 8em;
+}
+
+.cta {
+  border-radius: 10px;
+  font-size: 1.25em;
+	padding: .5em 1.5em;
+}
+
+/********************/
+/* HERO IMG CSS */
+/********************/
 .background-image {
 	background-attachment: fixed;
 	background-image: url("../../images/hero.jpg");
@@ -24,12 +44,254 @@ body {
 	height: 100vh;
 }
 
+.features-background-image {
+	background: url("../../images/features-background.jpg");
+	background-position: bottom;
+	background-size: cover;
+	/* height: 100vh; */
+	min-height: 42em;
+}
 
-header .container {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  padding: 0 15px;
+/********************/
+/* HERO CONTENT CSS */
+/********************/
+div.col > h2 {
+	color: #fff;
+}
+
+/********************/
+/* IMAGES CSS */
+/********************/
+#logo--rock-n-stroll {
+	width: 400px;
+}
+
+#logo--peppers-black-sm {
+	width: 80px;
+}
+
+/********************/
+/* NAVIGATION CSS */
+/********************/
+.navbar-brand, nav {
+	margin-top: 2em;
+}
+
+nav {
+	float: right;
+}
+
+nav > a {
+	color: #fff;
+}
+
+nav > a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+nav > a:nth-of-type(2) {
+	margin: 0 3em;
+}
+
+div.navbar-brand--sublogo {
+	text-align: right;
+}
+
+.navbar-brand--sublogo > span {
+	color: #000;
+	font-style: italic;
+}
+
+/********************/
+/* HANDS FREE CONTENT CSS */
+/********************/
+#cta-sunglasses {
+	width: 100%;
+}
+
+.featurette-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#featurette-cta {
+	width: 11em;
+}
+
+/********************/
+/* INSTAGRAM FREE CONTENT CSS */
+/********************/
+.instagram-container {
+	padding: 0;
+}
+
+.instagram-image {
+	position: relative;
+	width: 100%;
+}
+
+.instagram-logo {
+	left: 2em;
+	position: absolute;
+	top: 28em;
+	width: 5em;
+}
+
+/********************/
+/* FIND YOUR STYLE CONTENT CSS */
+/********************/
+#find-your-style, #features {
+	background-color: #fAfAfA;
+  margin: 0 0 10px 0;
+  padding: 80px 0;
+}
+
+#find-your-style, #features {
+  padding: 80px 0;
+}
+
+/********************/
+/* PRODUCTS CONTENT CSS */
+/********************/
+#style-products > .row {
+	margin: 0 10px;
+}
+
+.peppers-product {
+	/* background-color: #fAfAfA; */
+	padding: 0 5px;
+}
+
+.peppers-product > img {
+	width: 100%;
+}
+
+.peppers-product > p, .product-price {
+	background-color: #fAfAfA;
+	color: #000;
+	text-align: center;
+}
+
+.peppers-product > p {
+  font-size: 1em;
+  font-weight: 500;
+	margin-bottom: 0;
+}
+
+p.product-price {
+	font-weight: bold;
+  font-size: 1.25em;
+  margin-bottom: 0;
+	padding-bottom: 1.5em;
+}
+
+.peppers-product > h3 {
+	background-color: #fAfAfA;
+  font-style: italic;
+  font-weight: bold;
+	margin-bottom: 0;
+	padding-bottom: 1.5em;
+	text-align: center;
+}
+
+.product-cta-container {
+	background-color: #fAfAfA;
+	padding-bottom: 5em;
+	text-align: center;
+}
+
+/********************/
+/* BONE CONDUCTION AUDIO CONTENT CSS */
+/********************/
+#learn-more {
+	border-bottom: 2px solid red;
+	color: red;
+	font-size: 1.25em;
+	width: 5em;
+}
+
+/********************/
+/* FEATURES SPECS CONTENT CSS */
+/********************/
+#features-specs {
+	background-color: #fAfAfA;
+	margin-bottom: 0;
+  padding: 80px 0 0 0;
+}
+
+#features-specs > div.container > p {
+	color: #000;
+	font-size: 2em;
+	font-weight: normal;
+}
+
+/********************/
+/* FOOTER CONTENT CSS */
+/********************/
+footer {
+	background-color: #000;
+}
+
+.footer-row {
+	padding: 8em 0;
+}
+
+ul {
+	list-style: none;
+}
+
+.footer-list-1 > a > li {
+	color: #fff;
+  font-size: 1.75em;
+}
+
+.footer-list-2 > a > li {
+	color: #c3c3c3;
+  font-size: 1.5em;
+}
+
+.footer-list-1 > a:nth-child(2) > li, .footer-list-2 > a:nth-child(2) > li {
+	margin: .5em 0;
+}
+
+.footer-list-1 > a:hover, .footer-list-2 > a:hover, .legal > a:hover {
+	color: #fff;
+  text-decoration: none;
+}
+
+.footer-row > .col-md-6 {
+	text-align: right;
+}
+
+.footer-brand--sublogo > span {
+	color: #c3c3c3;
+	font-size: .7em;
+	font-style: italic;
+}
+
+#logo-peppers-footer {
+	margin: 0 auto;
+	width: 24%;
+}
+
+.legal {
+	margin: 0 auto;
+	padding: 2em 0 5em 0;
+}
+
+.legal > a > li {
+	color: #fff;
+	display: inline;
+}
+
+.legal > a > li {
+	color: #fff;
+	display: inline;
+}
+
+.legal > a:nth-child(2) > li {
+	margin: 0 5em;
 }
 
 .navbar-brand > img {

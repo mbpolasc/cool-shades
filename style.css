@@ -38,7 +38,7 @@ body {
   * Make the hero.jpg image fill the height of the browser
   *
   *********************************************************/
-  background-image: url("images/hero.jpg");
+  background-image: url("../../images/hero.jpg");
   background-size: cover;
   height: 100%;
 }

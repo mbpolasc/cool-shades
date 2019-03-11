@@ -7,31 +7,25 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css" />
-
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="./resources/css/style.css">
     <title>Cool Shades</title>
   </head>
   <body>
-    <!-- HERO (above the fold) -->
     <div class="background-image">
       <header>
         <div class="container">
           <a href="#" class="navbar-brand">
-            <img src="images/logo--rock-n-stroll.png" width="280" />
+            <img id="logo--rock-n-stroll" src="./images/logo--rock-n-stroll.png" alt="Rock-N-Stroll Logo">
             <div class="navbar-brand--sublogo">
-              by <img src="images/logo--peppers-black-sm.png" width="80" />
+              <span>by</span>
+              <img id="logo--peppers-black-sm" src="./images/logo--peppers-black-sm.png" alt="Logo-Peppers-Black-Small">
             </div>
           </a>
           <nav>
-            <a href="#">
-              Shop
-            </a>
-            <a href="#">
-              Features
-            </a>
-            <a href="#">
-              Support
-            </a>
+            <a href="#">Shop</a>
+            <a href="#">Features</a>
+            <a href="#">Support</a>
           </nav>
         </div>
       </header>
@@ -40,34 +34,29 @@
         <div class="container">
           <div class="row">
             <div class="col">
-              <h2>
-                Audio Sunglasses
-              </h2>
-              <p>
-                Hit the slopes or Ride your
-                <br />
-                bike without wearing earbuds.
-              </p>
-              <a class="btn btn-primary btn-lg" href="#">
-                Shop Now
-              </a>
+              <h2>Audio Sunglasses</h2>
+              <p>Hit the slopes or Ride your<br />
+              bike without wearing earbuds.</p>
+              <a href="#" class="btn btn-danger cta">Shop Now</a>
             </div>
           </div>
         </div>
       </main>
-
     </div>
-    <!-- /HERO (above the fold) -->
 
-    <section>
+    <section id="hands-free">
       <div class="container">
         <div class="row featurette">
-          <div class="col-md-7">
-            <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          <div class="col-md-6 featurette-text">
+            <h2 class="featurette-heading">Hands Free</h2>
+            <p>Play music, answer calls & turn by turn
+            <br />
+            navigation streamed through your shades
+            </p>
+            <a href="#" id="featurette-cta" class="btn btn-danger cta">Explore Features</a>
           </div>
-          <div class="col-md-5">
-            <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+          <div class="col-md-6">
+            <img id="cta-sunglasses" src="./images/cta-sunglasses.jpg" alt="Peppers Audio Sunglasses">
           </div>
         </div>
       </div>

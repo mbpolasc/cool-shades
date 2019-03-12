@@ -1,4 +1,76 @@
+html,
 body{
-  background-image: url("hero.jpg");
   background-color: lightgrey;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.btn-primary {
+  background-color: #d51419;
+  border-color: #dc3545;
+}
+
+.btn-primary:hover {
+  background-color: #dc3545;
+  border-color: #d51419;
+}
+
+.background-image {
+  padding-top: 25px;
+  background-image: url (images/hero.jpg);
+  background-size: cover;
+  height: 100%
+}
+
+header .container {
+  display: flex;
+  alight-items: flex-start;
+  justify-content: space-between;
+  padding: 0 15px;
+}
+
+.navbar-brand > img {
+  display: block;
+  margin: 0 0 5px 0;
+}
+
+.navbar-brand--sublogo {
+  color: black;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+nav a{
+  color: white;
+  padding: 10px 5px;
+  margin-right: 10px;
+}
+
+nav a:last-child {
+  margin: 0;
+}
+
+nav a:hover {
+  color: white;
+  text-decoration: underlin;
+}
+
+main {
+  position: relative;
+  top: calc(50% - 134px);
+}
+
+main h2 {
+  color: white;
+  font-size: 50px;
+  text-shadow: 1px 1px 15px rgba(0, 0, 0, .2);
+}
+
+main p {
+  font-size: 20px;
+  color: white;
+  text-shadow: -1px 1px 15px rgba(0,0,0,.2)
 }

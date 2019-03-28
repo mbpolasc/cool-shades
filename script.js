@@ -32,7 +32,7 @@ function mobileProducts(product) {
     <image class="img-fluid" src="${product.img}" alt=Peppers Rock-N-Stroll Red">
     <p class="product-title">${product.subtitle}</p>
     <h3>${product.title}</h3>
-    <p class="product-price">$${product.price + 50}</p>
+    <p class="product-price">$${product.price + 1}</p>
     <div class="product-cta-container">
       <a href="#" class="btn btn-danger btn-lg">Add to Cart</a>
     </div>

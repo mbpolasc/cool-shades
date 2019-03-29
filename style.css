@@ -213,6 +213,8 @@ p.product-price {
   text-align: center;
 }
 
+
+
 /* responsive */
 
 #mobile-products {
@@ -221,6 +223,31 @@ p.product-price {
 
 #desktop-products {
   display: none;
+
+
+}
+
+.circle {
+  border-radius: 100%;
+  display: inline-block;
+  height: 20px;
+  width: 20px
+}
+
+.red {
+  background: red;
+}
+
+.green {
+  background: green;
+}
+
+.blue {
+  background: blue;
+}
+
+.black {
+  background: black;
 }
 
 @media (min-width: 768px) {
